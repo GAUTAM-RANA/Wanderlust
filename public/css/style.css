@@ -1,0 +1,155 @@
+/*navbar */
+.navbar{
+    height: 5rem;
+}
+
+.fa-compass{
+    color: red;
+    font-size: 2rem;
+
+}
+
+.nav-link{
+    color: black;
+}
+/*footer */
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-links,
+.f-info-socials{
+    width: 100%;
+    font-size: 1.2rem;
+    margin-right: 1 rem;
+}
+.f-info-socials i{
+   font-size: 1.2rem;
+   margin-right: 1rem;
+}
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color:#ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items : space-evenly;
+}
+/*cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+
+}
+.card-body{
+    padding: 0 !important;
+}
+
+.listing-link{
+    text-decoration:none;
+}
+/*card effect*/
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color:white;
+}
+
+/* show page */
+.show-img{
+    height: 30vh;
+}
+.add-btn{
+    background-color : red;
+    color: white;
+    border: none;
+}
+.add-btn::hover{
+    background-color: darkred;
+    color: white;
+}
+
+
+
+/* ================================= */
+/* Star Rating Form */
+/* ================================= */
+
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 5px;
+    border: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+/* Hide radio buttons */
+
+.star-rating input {
+    display: none;
+}
+
+/* Star design */
+
+.star-rating label {
+    font-size: 32px;
+    color: #d3d3d3;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+/* Selected stars */
+
+.star-rating input:checked ~ label {
+    color: #ffc107;
+}
+
+/* Hover stars */
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #ffc107;
+}
+
+
+/* ================================= */
+/* Review Display Stars */
+/* ================================= */
+
+.review-stars {
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+/* Yellow filled stars */
+
+.filled-star {
+    color: #ffc107;
+}
+
+/* Gray empty stars */
+
+.empty-star {
+    color: #d3d3d3;
+}
+
+/*map */
+#map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
